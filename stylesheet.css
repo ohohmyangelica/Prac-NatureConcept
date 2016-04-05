@@ -1,0 +1,160 @@
+body {
+  width: 100%;
+}
+
+div {
+  border: 1px solid black;
+}
+
+hr {
+  height: 2px;
+  width: 80%;
+  background-color: #00933B;
+  box-shadow: 2px 2px 5px #888;
+
+}
+
+.socialmedia {
+  width: 100%;
+  height: 35px;
+  background-color: #E2A55C;
+
+}
+
+.ulsns {
+  list-style-type: none;
+  display: inline;
+  margin-left: 85%;
+}
+
+.sns {
+  display: inline;
+
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #eee;
+
+}
+
+.ulnavlist {
+  list-style-type: none;
+  float: right;
+  margin-right: 5%;
+  padding: 10px;
+}
+
+.navlist {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+.navlink {
+  text-decoration: none;
+  font-family: Trebuchet MS;
+  font-size: 22px;
+  color: #00933B;
+}
+
+.row1 {
+  background-color: #00933B;
+}
+
+.row2 {
+  background-color: #eee;
+  width: 100%;
+  /*height: 400px;*/
+}
+
+.slider-holder {
+  width: 800px;
+  height: 400px;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-holder {
+  width: 2400px;
+  background-color: red;
+  height: 400px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+#slider-image-1:target ~ .image-holder {
+  left: 0px;
+}
+
+#slider-image-2:target ~ .image-holder {
+  left: -800px;
+}
+
+#slider-image-3:target ~ .image-holder {
+  left: -1600px;
+}
+
+.button-holder {
+  position: relative;
+  top: -20px;
+}
+
+.slider-change {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #FFF;
+}
+
+.small-header {
+  background-color: #E2A55C;
+}
+
+.tagline {
+  text-align: center;
+  color: #00933B;
+  font-family: Impact;
+  font-size: 26px;
+}
+
+.container1 {
+  display: inline-flex;;
+  width: 100%;
+}
+
+.container2 {
+  display: inline-flex;
+  width: 100%;
+  min-height: 100%;
+}
+
+.col1 {
+  /*display: inline-flex;*/
+  width: 32.5%;
+  padding: 0 5px 0 5px;
+}
+
+.colimg {
+  float: left;
+}
+
+.img1 {
+  padding: 9px;
+}
